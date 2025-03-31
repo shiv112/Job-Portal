@@ -1,7 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { CommonModule } from '@angular/common';
 import { IonicModule } from '@ionic/angular';
-import { RouterLink } from '@angular/router';
 import { FooterComponent } from "../../shared/footer/footer.component";
 import {MatBadgeModule} from '@angular/material/badge';
 
