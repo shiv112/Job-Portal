@@ -8,6 +8,7 @@ import { IonicModule } from '@ionic/angular';
   templateUrl: './messages-details.component.html',
   styleUrls: ['./messages-details.component.scss'],
   imports: [IonApp, IonicModule, IonToolbar, IonBackButton, IonButtons, IonTitle, IonIcon, IonButton, FooterComponent],
+
 })
 export class MessagesDetailsComponent  implements OnInit {
 

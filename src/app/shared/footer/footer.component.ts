@@ -6,7 +6,8 @@ import { Route , Router , RouterLink , RouterOutlet } from '@angular/router';
 @Component({
   selector: 'app-footer',
   standalone:true,
-  imports:[IonicModule , CommonModule ,MatIconModule , RouterLink , RouterOutlet],
+  imports:[IonicModule , CommonModule ,MatIconModule ,
+     RouterLink , RouterOutlet],
   templateUrl: './footer.component.html',
   styleUrls: ['./footer.component.scss'],
 })

@@ -5,6 +5,7 @@ import { JobdetailsComponent } from './pages/jobdetails/jobdetails.component';
 import { ProfileComponent } from './pages/profile/profile.component';
 import { MessagesComponent } from './pages/messages/messages.component';
 import { MessagesDetailsComponent } from './pages/messages-details/messages-details.component';
+import { NotificationsComponent } from './pages/notifications/notifications.component';
 
 
 export const routes: Routes = [
@@ -25,7 +26,10 @@ export const routes: Routes = [
         path:'message' , component:MessagesComponent
     },
     {
-        path:'messageDetails', component:MessagesDetailsComponent
-    }
+        path:'messagedetails', component:MessagesDetailsComponent
+    },
+    // {
+    //     path:'**', component:MessagesDetailsComponent
+    // }
 ];
 
