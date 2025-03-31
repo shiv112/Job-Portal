@@ -5,20 +5,10 @@ import {
   LIFECYCLE_WILL_LEAVE,
   LIFECYCLE_WILL_UNLOAD,
   createAnimation
-} from "./chunk-VPBMHJDY.js";
+} from "./chunk-E3J2JUXI.js";
 import {
   printIonWarning
 } from "./chunk-VEV5BJ2D.js";
-import {
-  addEventListener,
-  componentOnReady,
-  focusVisibleElement,
-  getElementRoot,
-  removeEventListener
-} from "./chunk-OKPK4C3D.js";
-import {
-  BACKDROP_NO_SCROLL
-} from "./chunk-4AF7KAXZ.js";
 import {
   MENU_BACK_BUTTON_PRIORITY,
   OVERLAY_BACK_BUTTON_PRIORITY,
@@ -33,6 +23,16 @@ import {
 import {
   doc
 } from "./chunk-ACUVEYEP.js";
+import {
+  addEventListener,
+  componentOnReady,
+  focusVisibleElement,
+  getElementRoot,
+  removeEventListener
+} from "./chunk-OKPK4C3D.js";
+import {
+  BACKDROP_NO_SCROLL
+} from "./chunk-4AF7KAXZ.js";
 import {
   NgControl
 } from "./chunk-V3SXAQGB.js";
@@ -3982,4 +3982,4 @@ export {
    * (C) Ionic http://ionicframework.com - MIT License
    *)
 */
-//# sourceMappingURL=chunk-QRCNEST3.js.map
+//# sourceMappingURL=chunk-6AFK27E6.js.map

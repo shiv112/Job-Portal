@@ -1,10 +1,4 @@
 import {
-  startFocusVisible
-} from "./chunk-7Q5HCUSL.js";
-import {
-  isRTL
-} from "./chunk-EUT5B6DW.js";
-import {
   KEYBOARD_DID_OPEN
 } from "./chunk-T7NLFTSM.js";
 import {
@@ -23,6 +17,9 @@ import {
   printIonContentErrorMsg,
   resetContentScrollY
 } from "./chunk-SWBNJOIY.js";
+import {
+  startFocusVisible
+} from "./chunk-7Q5HCUSL.js";
 import {
   AngularDelegate,
   BACKDROP,
@@ -82,13 +79,13 @@ import {
   setIonicClasses,
   setOverlayId,
   toastController
-} from "./chunk-QRCNEST3.js";
+} from "./chunk-6AFK27E6.js";
 import {
   iosTransitionAnimation
-} from "./chunk-2DZLMLQQ.js";
+} from "./chunk-2AOFPSWL.js";
 import {
   mdTransitionAnimation
-} from "./chunk-2FMJVB4M.js";
+} from "./chunk-VKTT3D6L.js";
 import {
   LIFECYCLE_DID_LEAVE,
   LIFECYCLE_WILL_LEAVE,
@@ -99,34 +96,11 @@ import {
   setPageHidden,
   transition,
   waitForMount
-} from "./chunk-VPBMHJDY.js";
+} from "./chunk-E3J2JUXI.js";
 import {
   printIonError,
   printIonWarning
 } from "./chunk-VEV5BJ2D.js";
-import {
-  addEventListener,
-  assert,
-  clamp,
-  componentOnReady,
-  debounceEvent,
-  focusVisibleElement,
-  getElementRoot,
-  hasLazyBuild,
-  hasShadowDom,
-  inheritAriaAttributes,
-  inheritAttributes,
-  isEndSide,
-  raf,
-  removeEventListener,
-  renderHiddenInput,
-  shallowEqualStringMap,
-  transitionEndAsync
-} from "./chunk-OKPK4C3D.js";
-import {
-  GESTURE_CONTROLLER,
-  createGesture
-} from "./chunk-4AF7KAXZ.js";
 import {
   shouldUseCloseWatcher
 } from "./chunk-E3VFUNW2.js";
@@ -153,6 +127,32 @@ import {
   doc,
   win
 } from "./chunk-ACUVEYEP.js";
+import {
+  isRTL
+} from "./chunk-EUT5B6DW.js";
+import {
+  addEventListener,
+  assert,
+  clamp,
+  componentOnReady,
+  debounceEvent,
+  focusVisibleElement,
+  getElementRoot,
+  hasLazyBuild,
+  hasShadowDom,
+  inheritAriaAttributes,
+  inheritAttributes,
+  isEndSide,
+  raf,
+  removeEventListener,
+  renderHiddenInput,
+  shallowEqualStringMap,
+  transitionEndAsync
+} from "./chunk-OKPK4C3D.js";
+import {
+  GESTURE_CONTROLLER,
+  createGesture
+} from "./chunk-4AF7KAXZ.js";
 import {
   NG_VALUE_ACCESSOR
 } from "./chunk-V3SXAQGB.js";
@@ -5496,14 +5496,14 @@ var App = proxyCustomElement(class App2 extends H {
       rIC(() => __async(this, null, function* () {
         const isHybrid = isPlatform(window, "hybrid");
         if (!config.getBoolean("_testing")) {
-          import("./index9-QKCPE4PN.js").then((module) => module.startTapClick(config));
+          import("./index9-6FSSKHI7.js").then((module) => module.startTapClick(config));
         }
         if (config.getBoolean("statusTap", isHybrid)) {
-          import("./status-tap-6GMAG4EH.js").then((module) => module.startStatusTap());
+          import("./status-tap-X3P2BMFC.js").then((module) => module.startStatusTap());
         }
         if (config.getBoolean("inputShims", needInputShims())) {
           const platform = isPlatform(window, "ios") ? "ios" : "android";
-          import("./input-shims-H4D7EQL7.js").then((module) => module.startInputShims(config, platform));
+          import("./input-shims-BIO6DKY7.js").then((module) => module.startInputShims(config, platform));
         }
         const hardwareBackButtonModule = yield import("./hardware-back-button-BV6NHMZT.js");
         const supportsHardwareBackButtonEvents = isHybrid || shouldUseCloseWatcher();

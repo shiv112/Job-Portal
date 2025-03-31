@@ -36,4 +36,11 @@
 /* @import "@ionic/angular/css/palettes/dark.class.css"; */
 @import '@ionic/angular/css/palettes/dark.system.css';
 
+ion-content {
+    --background: #FBF6FF !important; /* Ensures the background is white */
+    scrollbar-color: rgba(0, 0, 0, 0.4) transparent;
+  }
+
+
+
 
