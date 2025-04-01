@@ -6,6 +6,8 @@ import { ProfileComponent } from './pages/profile/profile.component';
 import { MessagesComponent } from './pages/messages/messages.component';
 import { MessagesDetailsComponent } from './pages/messages-details/messages-details.component';
 import { NotificationsComponent } from './pages/notifications/notifications.component';
+import { LoginComponent } from './pages/login/login.component';
+import { RegisterComponent } from './pages/register/register.component';
 
 
 export const routes: Routes = [
@@ -28,6 +30,12 @@ export const routes: Routes = [
     {
         path:'messagedetails', component:MessagesDetailsComponent
     },
+    {
+        path:'login' , component:LoginComponent
+    },
+    {
+        path:'register' , component:RegisterComponent
+    }
     // {
     //     path:'**', component:MessagesDetailsComponent
     // }
