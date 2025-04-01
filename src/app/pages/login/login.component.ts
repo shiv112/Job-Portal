@@ -7,7 +7,7 @@ import { FooterComponent } from "../../shared/footer/footer.component";
   selector: 'app-login',
   templateUrl: './login.component.html',
   styleUrls: ['./login.component.scss'],
-  imports: [IonicModule, FormsModule, FooterComponent]
+  imports: [IonicModule, FormsModule]
 })
 export class LoginComponent  implements OnInit {
   username = '';
