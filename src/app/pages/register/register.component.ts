@@ -10,6 +10,10 @@ import { FooterComponent } from "../../shared/footer/footer.component";
   imports: [IonicModule, FormsModule, FooterComponent] ,
 })
 export class RegisterComponent  implements OnInit {
+passwordVisibility: any;
+togglePasswordVisibility() {
+throw new Error('Method not implemented.');
+}
   fullName = 'Henry Kanwil';
   email = 'henrykanwil@mail.com';
   password = '';

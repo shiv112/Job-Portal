@@ -7,3 +7,82 @@ ion-header ion-toolbar {
   --background:white;
   --color: black;
 }
+.main-content {
+  border: 0px solid black;
+  margin: 0px 10px 0px 10px;
+  display: flex;
+  flex-direction: column;
+
+}
+.ple-text {
+  color: #585858;
+}
+.crt-acc-div {
+  margin-left:40px ;
+}
+.main-input-container {
+  display: flex; 
+  flex-direction: column;
+  justify-content: center;  
+}
+
+.input-div {
+  // border: 1px solid black;
+  margin: 10px 20px 10px 20px;
+}
+
+input { 
+  border-radius: 50px;
+  padding: 30px;
+  height: 40px;
+  font-weight: 800;
+  background-color: white;
+  border:none;
+  color: black;
+}
+
+.signup-btn { 
+  border-radius: 50px;
+  height: 60px;
+  font-size: 16px;
+  font-weight:900;
+  background-color: #40189D;
+  border:none;
+  color: white;
+  padding: 20px;
+  display: block;
+  margin-top: 18px;
+  margin-inline: 28px;
+}
+
+.term-cdn-text{
+  font-size: 17px;
+  margin-inline: 28px;
+}
+
+.login-div {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ald-login-text {
+  font-size: 18px;
+  margin-inline: 28px;
+  text-align: center;
+}
+.login-btn {
+  border-radius: 50px;
+  height: 60px;
+  font-size: 16px;
+  font-weight:900;
+  background-color: #E1D3FF;
+  border:none;
+  color: #40189D;
+  padding: 20px;
+  display: block;
+  margin-top: 12px;
+  margin-inline: 28px;
+  width: 80%;
+}
