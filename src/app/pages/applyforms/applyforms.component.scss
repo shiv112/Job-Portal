@@ -1,51 +1,51 @@
-ion-app {
-  --background-color: wheat;
+
+ion-content {
+  --background: white;
+  --color: black;
 }
-.job-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px;
-    background: #2a1a5e;
-    color: rgb(255, 255, 255);
-    border-radius: 15px 15px 0 0;
-  }
-  
-  .apply-form {
-    background: #11063c;
-    padding: 20px;
-    border-radius: 15px;
-    margin-top: -15px;
-  }
-  
-  .upload-box {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border: 2px dashed #9b89ff;
-    padding: 15px;
-    border-radius: 10px;
-    text-align: center;
-    cursor: pointer;
-  }
-  
-  .upload-box ion-icon {
-    font-size: 20px;
-    color: #9b89ff;
-  }
-  
-  ion-item {
-    --background: rgb(36, 114, 198);
-    border-radius: 10px;
-    margin-top: 10px;
-  }
-  
-  ion-button {
-    margin-top: 20px;
-    font-weight: bold;
-  }
-  
-  // ion-footer {
-  //   z-index: 10;
-  // }
-  
+ion-header ion-toolbar {
+  --background:white;
+  --color: black;
+}
+.main-content {
+  margin-top: 50px;
+  border: 0px solid black;
+  margin: 0px 10px 0px 10px;
+  display: flex;
+  flex-direction: column;
+
+}
+.main-input-container {
+  display: flex; 
+  flex-direction: column;
+  justify-content: center;  
+}
+
+.input-div {
+  // border: 1px solid black;
+  margin: 10px 20px 10px 20px;
+}
+
+input { 
+  border-radius: 50px;
+  padding: 30px;
+  height: 40px;
+  font-weight: 800;
+  background-color: white;
+  border:none;
+  color: black;
+}
+
+.apply-btn { 
+  border-radius: 50px;
+  height: 60px;
+  font-size: 16px;
+  font-weight:900;
+  background-color: #40189D;
+  border:none;
+  color: white;
+  padding: 20px;
+  display: block;
+  margin-top: 18px;
+  margin-inline: 28px;
+}

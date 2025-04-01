@@ -1,57 +1,32 @@
 <ion-app>
-<ion-header>
-  <ion-toolbar color="dark">
-    <ion-buttons slot="start">
-      <ion-back-button defaultHref="/"></ion-back-button>
-    </ion-buttons>
-  </ion-toolbar>
-</ion-header>
-
-<ion-content class="ion-padding">
-  <!-- Job Header -->
-  <div class="job-header">
-    <div>
-      <h3>Highspeed Studios</h3>
-      <h2>Senior Software Engineer</h2>
-    </div>
-    <ion-thumbnail>
-      <img src="assets/highspeed.png" alt="Company Logo">
-    </ion-thumbnail>
+  <ion-header>
+    <ion-toolbar>
+      <ion-buttons slot="start">
+        <ion-back-button defaultHref="/"></ion-back-button>
+      </ion-buttons>
+      <ion-title> Appy Form</ion-title>
+      <ion-buttons slot="end">
+        <ion-button fill="clear">
+          <ion-icon name="bookmark-outline"></ion-icon>
+        </ion-button>
+      </ion-buttons>
+    </ion-toolbar>
+  </ion-header>
+  <ion-content>
+  <div class="main-content">
+  <div >
+    <form action="">
+      <div class="main-input-container">
+           <input type="file" placeholder="Upload Resume" class="input-div">
+           <input type="password" placeholder="Name" id="" class="input-div">    
+           <input type="password" placeholder="Email" id="" class="input-div">    
+           <input type="password" placeholder="Number" id="" class="input-div">        
+          <button class="apply-btn" >APPLY JOB</button>        
+        </div>
+      
+    </form>
   </div>
+</div>
+  </ion-content>
 
-  <!-- Apply Form Card -->
-  <div class="apply-form">
-    <h2>Apply Form</h2>
-
-    <!-- Upload Resume -->
-    <div class="upload-box" (click)="uploadResume()">
-      <p>+Upload Resume</p>
-      <ion-icon name="document-attach-outline"></ion-icon>
-    </div>
-
-    <!-- Form Inputs -->
-    <ion-item>
-      <ion-input placeholder="Full Name" [(ngModel)]="applicant.name"></ion-input>
-    </ion-item>
-
-    <ion-item>
-      <ion-input type="email" placeholder="Email" [(ngModel)]="applicant.email"></ion-input>
-    </ion-item>
-
-    <ion-item>
-      <ion-input type="tel" placeholder="Phone Number" [(ngModel)]="applicant.phone"></ion-input>
-    </ion-item>
-
-    <!-- Apply Button -->
-    <ion-button expand="full" shape="round" color="primary" (click)="submitApplication()">
-      APPLY JOB
-    </ion-button>
-  </div>
-  
-</ion-content>
-
-
-
-
-
-</ion-app>
+  </ion-app>

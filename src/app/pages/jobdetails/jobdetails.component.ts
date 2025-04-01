@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 import { IonicModule } from '@ionic/angular';
 import { FooterComponent } from "../../shared/footer/footer.component";
 import { MatIconModule } from '@angular/material/icon'; // Import Material Icons
@@ -14,7 +14,7 @@ export class JobdetailsComponent  implements OnInit {
 
   job: any = {};
 
-  constructor(private route: ActivatedRoute) {
+  constructor(private route: ActivatedRoute , private router: Router) {
     this.loadJobDetails();
   }
 
@@ -39,4 +39,7 @@ export class JobdetailsComponent  implements OnInit {
 
   ngOnInit() {}
 
+  goToApplyForm() {
+    this.router.navigate(['/formComponent']);
+}
 }
