@@ -2,21 +2,6 @@ import {
   mdTransitionAnimation
 } from "./chunk-3LV54IGZ.js";
 import {
-  iosTransitionAnimation
-} from "./chunk-UWMSXM6I.js";
-import {
-  bootstrapLazy,
-  componentOnReady,
-  createAnimation,
-  doc,
-  getIonMode,
-  getIonPageElement,
-  getPlatforms,
-  initialize,
-  isPlatform,
-  printIonWarning
-} from "./chunk-2TYK2BCW.js";
-import {
   AngularDelegate,
   Config,
   ConfigToken,
@@ -39,13 +24,7 @@ import {
   provideComponentInputBinding,
   raf,
   setIonicClasses
-} from "./chunk-YS5XPIK6.js";
-import {
-  MaxValidator,
-  MinValidator,
-  NG_VALIDATORS,
-  NG_VALUE_ACCESSOR
-} from "./chunk-V3SXAQGB.js";
+} from "./chunk-QRCNEST3.js";
 import "./chunk-2DZLMLQQ.js";
 import "./chunk-2FMJVB4M.js";
 import "./chunk-VPBMHJDY.js";
@@ -56,6 +35,27 @@ import "./chunk-E3VFUNW2.js";
 import "./chunk-JHUVP4MF.js";
 import "./chunk-XN5KYYNJ.js";
 import "./chunk-ACUVEYEP.js";
+import {
+  iosTransitionAnimation
+} from "./chunk-UWMSXM6I.js";
+import {
+  bootstrapLazy,
+  componentOnReady,
+  createAnimation,
+  doc,
+  getIonMode,
+  getIonPageElement,
+  getPlatforms,
+  initialize,
+  isPlatform,
+  printIonWarning
+} from "./chunk-2TYK2BCW.js";
+import {
+  MaxValidator,
+  MinValidator,
+  NG_VALIDATORS,
+  NG_VALUE_ACCESSOR
+} from "./chunk-V3SXAQGB.js";
 import {
   ActivatedRoute,
   Router

@@ -82,10 +82,7 @@ import {
   setIonicClasses,
   setOverlayId,
   toastController
-} from "./chunk-YS5XPIK6.js";
-import {
-  NG_VALUE_ACCESSOR
-} from "./chunk-V3SXAQGB.js";
+} from "./chunk-QRCNEST3.js";
 import {
   iosTransitionAnimation
 } from "./chunk-2DZLMLQQ.js";
@@ -156,6 +153,9 @@ import {
   doc,
   win
 } from "./chunk-ACUVEYEP.js";
+import {
+  NG_VALUE_ACCESSOR
+} from "./chunk-V3SXAQGB.js";
 import {
   ActivatedRoute,
   Router

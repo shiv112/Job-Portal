@@ -1,7 +1,4 @@
 import {
-  NgControl
-} from "./chunk-V3SXAQGB.js";
-import {
   LIFECYCLE_DID_ENTER,
   LIFECYCLE_DID_LEAVE,
   LIFECYCLE_WILL_ENTER,
@@ -36,6 +33,9 @@ import {
 import {
   doc
 } from "./chunk-ACUVEYEP.js";
+import {
+  NgControl
+} from "./chunk-V3SXAQGB.js";
 import {
   ActivatedRoute,
   ChildrenOutletContexts,
@@ -3982,4 +3982,4 @@ export {
    * (C) Ionic http://ionicframework.com - MIT License
    *)
 */
-//# sourceMappingURL=chunk-YS5XPIK6.js.map
+//# sourceMappingURL=chunk-QRCNEST3.js.map
