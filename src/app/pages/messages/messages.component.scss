@@ -30,11 +30,9 @@ ion-content {
 
 /* Search bar styles */
 .search-bar {
-    color: black;
-    display:absolute;
-    margin-top: -2rem;
-    padding: 0 2rem;
-  }
+  margin-top: -17%;
+  margin-left: -3%;
+}
 
   .custom-searchbar {
     --background: white;
@@ -58,7 +56,7 @@ ion-content {
   }
 
   .main-container {
-    margin-bottom: 46px;
+    margin-top: 9%;
   }
   
   .custom-searchbar::part(input) {
