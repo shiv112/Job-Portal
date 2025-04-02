@@ -9,7 +9,7 @@ import { Route , Router , RouterLink , RouterOutlet } from '@angular/router';
   selector: 'app-dashboard',
   templateUrl: './dashboard.component.html',
   styleUrls: ['./dashboard.component.scss'],
-  imports: [IonicModule, FormsModule, FooterComponent , MatIconModule ,RouterLink]
+  imports: [IonicModule, FormsModule , MatIconModule ,RouterLink]
 })
 
 export class DashboardComponent  implements OnInit {

@@ -9,7 +9,7 @@ import { CommonModule } from '@angular/common';
   templateUrl: './profile.component.html',
   styleUrls: ['./profile.component.scss'],
   standalone:true,
-  imports:[FooterComponent , IonicModule , MatIconModule , CommonModule],
+  imports:[  IonicModule , MatIconModule , CommonModule],
 })
 export class ProfileComponent  implements OnInit {
 

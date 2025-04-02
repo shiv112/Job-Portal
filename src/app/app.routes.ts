@@ -12,7 +12,9 @@ import { RegisterComponent } from './pages/register/register.component';
 
 export const routes: Routes = [
     {
-        path:'' , component:DashboardComponent
+        path:'' , component:LoginComponent
+    },{
+        path:'home' , component:DashboardComponent
     },
     {
         path:'formComponent' , component:ApplyformsComponent

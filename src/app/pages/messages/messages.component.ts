@@ -8,7 +8,7 @@ import { Router, RouterLink, RouterModule, RouterOutlet } from '@angular/router'
   selector: 'app-messages',
   templateUrl: './messages.component.html',
   styleUrls: ['./messages.component.scss'],
-  imports: [IonicModule, FooterComponent , MatBadgeModule,
+  imports: [IonicModule , MatBadgeModule,
     RouterModule]
 })
 export class MessagesComponent  implements OnInit {
