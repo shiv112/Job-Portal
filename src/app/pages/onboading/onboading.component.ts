@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 import { IonicModule } from '@ionic/angular';
 
 @Component({
@@ -9,8 +10,11 @@ import { IonicModule } from '@ionic/angular';
 })
 export class OnboadingComponent  implements OnInit {
 
-  constructor() { }
+  constructor(private router:Router) { }
 
   ngOnInit() {}
+  goTowelcomePage (){
+      this.router.navigate(['/welcome'])
+  }
 
 }
