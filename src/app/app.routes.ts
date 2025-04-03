@@ -8,12 +8,23 @@ import { MessagesDetailsComponent } from './pages/messages-details/messages-deta
 import { NotificationsComponent } from './pages/notifications/notifications.component';
 import { LoginComponent } from './pages/login/login.component';
 import { RegisterComponent } from './pages/register/register.component';
+import { SplashcreenComponent } from './pages/splashcreen/splashcreen.component';
+import { OnboadingComponent } from './pages/onboading/onboading.component';
+import { WelcomeComponent } from './pages/welcome/welcome.component';
 
 
 export const routes: Routes = [
     {
-        path:'' , component:LoginComponent
+        path:'' , component:SplashcreenComponent
+    }, {
+        path:'onboarding' , component:OnboadingComponent
     },{
+        path:'welcome' , component:WelcomeComponent
+    },
+    {
+        path:'splashcreen' , component:SplashcreenComponent
+    } 
+    ,{
         path:'home' , component:DashboardComponent
     },
     {
