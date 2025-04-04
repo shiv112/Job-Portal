@@ -1,79 +1,79 @@
 {
-  "hash": "9746c8e2",
-  "configHash": "d4708284",
-  "lockfileHash": "1304976c",
-  "browserHash": "58f56ec5",
+  "hash": "dee95f1a",
+  "configHash": "0d09248b",
+  "lockfileHash": "7b832762",
+  "browserHash": "104de70c",
   "optimized": {
     "@angular/cdk/bidi": {
       "src": "../../../../../../node_modules/@angular/cdk/fesm2022/bidi.mjs",
       "file": "@angular_cdk_bidi.js",
-      "fileHash": "fb3f8c2e",
+      "fileHash": "46fabf09",
       "needsInterop": false
     },
     "@angular/common": {
       "src": "../../../../../../node_modules/@angular/common/fesm2022/common.mjs",
       "file": "@angular_common.js",
-      "fileHash": "981906e5",
+      "fileHash": "938a65a6",
       "needsInterop": false
     },
     "@angular/core": {
       "src": "../../../../../../node_modules/@angular/core/fesm2022/core.mjs",
       "file": "@angular_core.js",
-      "fileHash": "c9c9785e",
+      "fileHash": "4dfd3268",
       "needsInterop": false
     },
     "@angular/forms": {
       "src": "../../../../../../node_modules/@angular/forms/fesm2022/forms.mjs",
       "file": "@angular_forms.js",
-      "fileHash": "6c3a926b",
+      "fileHash": "e56372fb",
       "needsInterop": false
     },
     "@angular/material/badge": {
       "src": "../../../../../../node_modules/@angular/material/fesm2022/badge.mjs",
       "file": "@angular_material_badge.js",
-      "fileHash": "92ea64a9",
+      "fileHash": "255d161e",
       "needsInterop": false
     },
     "@angular/material/icon": {
       "src": "../../../../../../node_modules/@angular/material/fesm2022/icon.mjs",
       "file": "@angular_material_icon.js",
-      "fileHash": "048170ae",
+      "fileHash": "1f967da3",
       "needsInterop": false
     },
     "@angular/platform-browser": {
       "src": "../../../../../../node_modules/@angular/platform-browser/fesm2022/platform-browser.mjs",
       "file": "@angular_platform-browser.js",
-      "fileHash": "cb3942c9",
+      "fileHash": "329d33e3",
       "needsInterop": false
     },
     "@angular/router": {
       "src": "../../../../../../node_modules/@angular/router/fesm2022/router.mjs",
       "file": "@angular_router.js",
-      "fileHash": "615fead5",
+      "fileHash": "2d88f1b1",
       "needsInterop": false
     },
     "@ionic/angular": {
       "src": "../../../../../../node_modules/@ionic/angular/fesm2022/ionic-angular.mjs",
       "file": "@ionic_angular.js",
-      "fileHash": "15da7a32",
+      "fileHash": "12b78ebc",
       "needsInterop": false
     },
     "@ionic/angular/standalone": {
       "src": "../../../../../../node_modules/@ionic/angular/fesm2022/ionic-angular-standalone.mjs",
       "file": "@ionic_angular_standalone.js",
-      "fileHash": "1fc788d7",
+      "fileHash": "639d01f6",
       "needsInterop": false
     },
     "ionicons": {
       "src": "../../../../../../node_modules/ionicons/dist/index.js",
       "file": "ionicons.js",
-      "fileHash": "3d15b101",
+      "fileHash": "aaaf7844",
       "needsInterop": false
     },
     "ionicons/icons": {
       "src": "../../../../../../node_modules/ionicons/icons/index.mjs",
       "file": "ionicons_icons.js",
-      "fileHash": "9b4399c1",
+      "fileHash": "6171f993",
       "needsInterop": false
     }
   },
@@ -153,14 +153,14 @@
     "chunk-2TYK2BCW": {
       "file": "chunk-2TYK2BCW.js"
     },
-    "chunk-XPAPQFH6": {
-      "file": "chunk-XPAPQFH6.js"
+    "chunk-OZFLPCG7": {
+      "file": "chunk-OZFLPCG7.js"
     },
     "chunk-E3VFUNW2": {
       "file": "chunk-E3VFUNW2.js"
     },
-    "chunk-V3SXAQGB": {
-      "file": "chunk-V3SXAQGB.js"
+    "chunk-I7ZJQ7NP": {
+      "file": "chunk-I7ZJQ7NP.js"
     },
     "chunk-HSBYCB43": {
       "file": "chunk-HSBYCB43.js"
@@ -189,11 +189,11 @@
     "chunk-4AF7KAXZ": {
       "file": "chunk-4AF7KAXZ.js"
     },
-    "chunk-I7ZJQ7NP": {
-      "file": "chunk-I7ZJQ7NP.js"
-    },
     "chunk-K6AM3YNV": {
       "file": "chunk-K6AM3YNV.js"
+    },
+    "chunk-V3SXAQGB": {
+      "file": "chunk-V3SXAQGB.js"
     },
     "chunk-M6KX5WMZ": {
       "file": "chunk-M6KX5WMZ.js"
