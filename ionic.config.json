@@ -1,7 +1,14 @@
 {
   "name": "myFirstApp",
-  "integrations": {
-    "capacitor": {}
+  "type": "angular",
+  "integrations": {},
+  "features": {
+    "cordovaNative": false
   },
-  "type": "angular"
+  "cordova": {
+    "preferences": {
+      "ScrollEnabled": "true",
+      "webviewbounce": "true"
+    }
+  }
 }
