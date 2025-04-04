@@ -13,29 +13,19 @@
 @import "@ionic/angular/css/flex-utils.css";
 
 /* Dark mode setup */
-@import "@ionic/angular/css/palettes/dark.class.css"; 
+@import "@ionic/angular/css/palettes/dark.class.css";
 
-/* Global background color */
+/* Global styles */
 :root {
   --ion-background-color: #FBF6FF;
 }
 
-/* Ensures ion-content background */
+html, body, ion-app, ion-content {
+  height: 100%;
+  overflow: hidden;
+}
+
 ion-content {
+  --overflow: auto;
   --background: #FBF6FF !important;
-  scrollbar-color: rgba(0, 0, 0, 0.4) transparent;
-}
-
-/* Cross-browser scrollbar styling */
-ion-content::-webkit-scrollbar {
-  width: 6px;
-}
-
-ion-content::-webkit-scrollbar-thumb {
-  background: rgba(0, 0, 0, 0.4);
-  border-radius: 10px;
-}
-
-ion-content::-webkit-scrollbar-track {
-  background: transparent;
 }
