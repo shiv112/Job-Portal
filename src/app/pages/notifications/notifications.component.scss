@@ -1,0 +1,13 @@
+.hoverEffect {
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    background-color: #FBF6FF; /* light aqua */
+
+  }
+  
+  .hoverEffect:hover {
+    background-color: #40189D; /* light aqua */
+    transform: scale(1.02); /* slight zoom effect */
+    cursor: pointer;
+    color: white;
+  }
+  
