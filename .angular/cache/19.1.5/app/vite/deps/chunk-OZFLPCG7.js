@@ -4,6 +4,15 @@ import {
   shouldUseCloseWatcher
 } from "./chunk-E3VFUNW2.js";
 import {
+  ActivatedRoute,
+  ChildrenOutletContexts,
+  NavigationStart,
+  PRIMARY_OUTLET,
+  Router,
+  RouterLink,
+  UrlSerializer
+} from "./chunk-I7ZJQ7NP.js";
+import {
   LIFECYCLE_DID_ENTER,
   LIFECYCLE_DID_LEAVE,
   LIFECYCLE_WILL_ENTER,
@@ -36,15 +45,6 @@ import {
 import {
   NgControl
 } from "./chunk-V3SXAQGB.js";
-import {
-  ActivatedRoute,
-  ChildrenOutletContexts,
-  NavigationStart,
-  PRIMARY_OUTLET,
-  Router,
-  RouterLink,
-  UrlSerializer
-} from "./chunk-I7ZJQ7NP.js";
 import {
   DOCUMENT,
   Location,
@@ -3982,4 +3982,4 @@ export {
    * (C) Ionic http://ionicframework.com - MIT License
    *)
 */
-//# sourceMappingURL=chunk-VPC2EFF2.js.map
+//# sourceMappingURL=chunk-OZFLPCG7.js.map
