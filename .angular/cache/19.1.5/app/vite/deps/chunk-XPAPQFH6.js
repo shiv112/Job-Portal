@@ -4,6 +4,9 @@ import {
   shouldUseCloseWatcher
 } from "./chunk-E3VFUNW2.js";
 import {
+  NgControl
+} from "./chunk-V3SXAQGB.js";
+import {
   LIFECYCLE_DID_ENTER,
   LIFECYCLE_DID_LEAVE,
   LIFECYCLE_WILL_ENTER,
@@ -33,9 +36,6 @@ import {
 import {
   BACKDROP_NO_SCROLL
 } from "./chunk-4AF7KAXZ.js";
-import {
-  NgControl
-} from "./chunk-V3SXAQGB.js";
 import {
   ActivatedRoute,
   ChildrenOutletContexts,
@@ -3982,4 +3982,4 @@ export {
    * (C) Ionic http://ionicframework.com - MIT License
    *)
 */
-//# sourceMappingURL=chunk-VPC2EFF2.js.map
+//# sourceMappingURL=chunk-XPAPQFH6.js.map
