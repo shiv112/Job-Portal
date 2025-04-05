@@ -22,6 +22,9 @@ export const routes: Routes = [
         path:'welcome' , component:WelcomeComponent
     },
     {
+        path:'notification' , component:NotificationsComponent
+    },
+    {
         path:'splashcreen' , component:SplashcreenComponent
     } 
     ,{
