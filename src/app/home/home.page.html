@@ -1,0 +1,92 @@
+
+
+<ion-content [fullscreen]="true">
+    <!-- Header -->
+    <div class="header">
+      <div class="header-content">
+        <div>
+          <p class="greeting">Good Morning</p>
+          <h1 class="username">Henry Kanwil</h1>
+        </div>
+        <ion-avatar>
+          <img src="https://i.pravatar.cc/100" alt="Profile" />
+        </ion-avatar>
+      </div>
+    </div>
+    <!-- Search Bar -->
+    <div class="search-bar">
+      <ion-searchbar placeholder="Search job here..." class="custom-searchbar"></ion-searchbar>
+    </div>
+
+    <!-- Stats Cards -->
+    <div class="stats-grid">
+      <ion-card class="stats-card primary">
+        <div class="stats-content">
+          <h2>29</h2>
+          <p>Jobs Applied</p>
+        </div>
+      </ion-card>
+      <ion-card class="stats-card secondary">
+        <div class="stats-content">
+          <h2>3</h2>
+          <p>Interviews</p>
+        </div>
+      </ion-card>
+    </div>
+
+
+    <div class="section">
+      <div class="rec-job-div">
+        <div>
+          <h2 class="section-title">Recomended Jobs</h2>
+        </div>
+        <div class="rec-job-more">
+          <div class="sm-div"></div>
+          <div class="md-div"></div>
+          <div class="lg-div"></div>
+        </div>  
+      </div>
+      <a routerLink="/jobDetails">  
+      <ion-card class="ion-card-rec">	
+          <img src="https://i.pravatar.cc/100" alt="companyImg" class="company-img">
+        
+        <div class="company-details">
+          <!-- <span>ITC Pvt Ltd.</span> -->
+          
+          <span class="span-company-text">Software Engineer</span>
+          <span >Jakarta, Indonesia</span>
+          <span class="span-company-salary">$ 500 - $ 1,000</span>
+        </div>
+      </ion-card>
+    </a>
+    </div>
+    
+    <div class="section">
+      <div class="rec-job-div">
+        <div>
+            <h2 class="section-title">Recent Jobs</h2>
+        </div>
+        <div class="rec-job-more">
+          <span>More</span>
+         </div>  
+      </div>
+    </div>
+
+    
+      <div class="ion-card-recjob">	  
+       
+        <div class="ion-card-recentjob">	
+          <div>
+              <img src= "https://i.pravatar.cc/100" alt="companyImg" class="company-img-recentjob">
+          </div>
+          <div class="company-details-recentJob">
+            <span class="rec-span-companyText">ITC Pvt Ltd.</span>
+            <span class="rec-span-jobTitle">Software Engineer</span>
+            <span class="rec-span-address">Jakarta, Indonesia</span>
+            <span class="rec-span-salary">$500 - $1,000</span>
+          </div>
+        </div>
+      </div>	
+ 
+      
+  </ion-content>

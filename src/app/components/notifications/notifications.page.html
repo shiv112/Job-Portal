@@ -1,0 +1,29 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>notifications</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">notifications</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+
+<ion-card class="hoverEffect m-10 p-3" *ngFor="let displayData of notifications">
+  <p class="fs-6 fw-bold border-2" >{{displayData.title}}</p>
+  <p class="border-2">{{displayData.message}}</p>
+  <div class="d-flex flex-row justify-content-between">
+    <div class="hrs">{{displayData.time}}</div>
+    <div>{{displayData.seen}}</div>
+  </div>
+</ion-card>
+
+</ion-content>
+
+
+
+
+

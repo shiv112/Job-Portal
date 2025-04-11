@@ -1,0 +1,17 @@
+.hoverEffect {
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    background-color: #FBF6FF;
+    border-radius: 16px;
+  }
+  
+  .hoverEffect:hover {
+    background-color: #40189D;
+    transform: scale(1.02);
+    cursor: pointer;
+    color: white;
+  
+    p, div {
+      color: white; /* make text white on hover */
+    }
+  }
+  

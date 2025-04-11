@@ -1,0 +1,31 @@
+ion-toolbar {
+    // --background-color: rgb(1, 0, 0) !important; /* Ensures background is white */
+    padding: 0%;
+    --background: #FBF6FF !important;
+  }
+  
+  ion-footer {
+    background-color: rgb(9, 1, 1) !important; /* Explicitly set background to white */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 1000;
+    padding: 0%;
+  }
+  
+  .footer-icons {
+    padding: 0%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    // background-color: rgb(29, 4, 4) !important; /* Ensures icon container is white */
+  }
+  
+  mat-icon {
+    height:fit-content;
+    width:fit-content;
+    font-size:32px;
+    color: #194a4e; /* Change color if needed */
+    
+    padding: 0%;
+  } 
