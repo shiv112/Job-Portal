@@ -4,16 +4,30 @@
   </ion-toolbar>
 </ion-header> -->
 
-<ion-content [fullscreen]="true">
+<ion-content [fullscreen]="true" >
   <ion-header collapse="condense">
     <ion-toolbar>
       <ion-title size="large">messages</ion-title>
     </ion-toolbar>
   </ion-header>
-</ion-content>
 
 <ion-header>
   <ion-toolbar>
-    <ion-searchbar></ion-searchbar>
+    <ion-searchbar class="custom-searchbar" placeholder="Search message.."></ion-searchbar>
   </ion-toolbar>
 </ion-header>
+
+
+  
+  <ion-list *ngFor="let userMessage of chatList">
+    <ion-item>
+        <ion-avatar slot="start">
+          <img [src]="userMessage.image" />
+        </ion-avatar>
+      <ion-label>
+        <h2>{{userMessage.name}}</h2>
+        <p>{{userMessage.lastMessage}}</p>
+      </ion-label>
+    </ion-item>
+  </ion-list>
+</ion-content> 

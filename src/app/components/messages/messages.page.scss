@@ -1,6 +1,16 @@
 
+
 ion-content {
-    --background: white;
-    --color: black;
-  }
-  
+  --background: white;
+  --color: black;
+}
+
+.custom-searchbar {
+--background: white;
+--border-radius: 90px;
+--box-shadow: none;
+--placeholder-color: #666;
+--icon-color: #666;
+--color:black;
+
+}

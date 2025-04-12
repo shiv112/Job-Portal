@@ -9,7 +9,7 @@ import { RouterLink } from '@angular/router';
   templateUrl: './footer.page.html',
   styleUrls: ['./footer.page.scss'],
   standalone: true,
-  imports: [IonButton, IonIcon,  IonFooter, MatIconModule ,RouterLink  ,IonToolbar, CommonModule, FormsModule]
+  imports: [IonButton,  IonFooter, MatIconModule ,RouterLink  ,IonToolbar, CommonModule, FormsModule]
 })
 export class FooterPage implements OnInit {
 
