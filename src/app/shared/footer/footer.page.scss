@@ -21,11 +21,8 @@ ion-toolbar {
     // background-color: rgb(29, 4, 4) !important; /* Ensures icon container is white */
   }
   
-  mat-icon {
-    height:fit-content;
-    width:fit-content;
-    font-size:28px;
-    color: #194a4e; /* Change color if needed */
-    
-    padding: 0%;
+  ion-icon {
+    font-size:20px;
+    color: #062b2e; /* Change color if needed */
+    // padding: 0%;
   } 
