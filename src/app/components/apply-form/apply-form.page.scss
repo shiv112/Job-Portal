@@ -1,0 +1,51 @@
+
+ion-content {
+    --background: white;
+    --color: black;
+  }
+  ion-header ion-toolbar {
+    --background:white;
+    --color: black;
+  }
+  .main-content {
+    margin-top: 50px;
+    border: 0px solid black;
+    margin: 0px 10px 0px 10px;
+    display: flex;
+    flex-direction: column;
+  
+  }
+  .main-input-container {
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;  
+  }
+  
+  .input-div {
+    border: 1px solid black;
+    margin: 10px 20px 10px 20px;
+  }
+  
+  input { 
+    border-radius: 50px;
+    padding: 30px;
+    height: 40px;
+    font-weight: 800;
+    background-color: white;
+    border:none;
+    color: black;
+  }
+  
+  .apply-btn { 
+    border-radius: 50px;
+    height: 60px;
+    font-size: 16px;
+    font-weight:900;
+    background-color: #40189D;
+    border:none;
+    color: white;
+    padding: 20px;
+    display: block;
+    margin-top: 18px;
+    margin-inline: 28px;
+  }

@@ -39,13 +39,15 @@ ion-content {
   .profile-div {
     position: absolute;
     // top:50%;
-    left: 40%;
-    display: flex;
+    left: 38%;
+    display:flex;
     justify-content: center;
+    justify-items: center;
     margin-top: -50px; /* Moves profile image up */
   }
   
   .profile-div img {
+    
     width: 100px;
     height: 100px;
     border-radius: 30%;
@@ -86,6 +88,7 @@ ion-content {
   // }
   
   .ion-card-resume {
+    margin-top: 14px;
     padding: 10px;
     color: white;
     margin-inline: 26px;

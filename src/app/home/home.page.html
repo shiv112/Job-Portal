@@ -46,7 +46,7 @@
           <div class="lg-div"></div>
         </div>  
       </div>
-      <a routerLink="/jobDetails">  
+      
       <ion-card class="ion-card-rec">	
           <img src="https://i.pravatar.cc/100" alt="companyImg" class="company-img">
         
@@ -58,7 +58,7 @@
           <span class="span-company-salary">$ 500 - $ 1,000</span>
         </div>
       </ion-card>
-    </a>
+    
     </div>
     
     <div class="section">
@@ -75,7 +75,7 @@
     
       <div class="ion-card-recjob">	  
        
-        <div class="ion-card-recentjob" *ngFor="let cmpData of companyList">	
+        <div class="ion-card-recentjob" *ngFor="let cmpData of companyList" routerLink="/job-details">	
           <div>
               <img [src]="cmpData.companyImg" class="company-img-recentjob">
           </div>

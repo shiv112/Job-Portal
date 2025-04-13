@@ -12,7 +12,7 @@
 
 <ion-content [fullscreen]="true"  class="ion-padding-bottom">
   <ion-list *ngFor="let userMessage of chatList">
-    <ion-item>
+    <ion-item routerLink="/message-detail">
         <ion-avatar slot="start">
           <img [src]="userMessage.image" />
         </ion-avatar>

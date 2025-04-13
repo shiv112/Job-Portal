@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { IonContent, IonHeader, IonTitle, IonToolbar, IonAvatar, IonSearchbar, IonList, IonItem, IonLabel } from '@ionic/angular/standalone';
+import { RouterLink } from '@angular/router';
 // import { IonicModule } from '@ionic/angular';
 
 @Component({
@@ -9,7 +10,7 @@ import { IonContent, IonHeader, IonTitle, IonToolbar, IonAvatar, IonSearchbar, I
   templateUrl: './messages.page.html',
   styleUrls: ['./messages.page.scss'],
   standalone: true,
-  imports: [IonLabel,IonItem,IonAvatar, IonList, IonSearchbar, IonContent, IonHeader, IonToolbar, CommonModule, FormsModule]
+  imports: [IonLabel,IonItem,IonAvatar, IonList, IonSearchbar, RouterLink , IonContent, IonHeader, IonToolbar, CommonModule, FormsModule]
 })
 export class MessagesPage implements OnInit {
 
