@@ -25,6 +25,26 @@ export const routes: Routes = [
     path: 'messages',
     loadComponent: () => import('./components/messages/messages.page').then( m => m.MessagesPage)
   },
+  {
+    path: 'profile',
+    loadComponent: () => import('./components/profile/profile.page').then( m => m.ProfilePage)
+  },
+  {
+    path: 'message-detail',
+    loadComponent: () => import('./components/message-detail/message-detail.page').then( m => m.MessageDetailPage)
+  },
+  {
+    path: 'company-details',
+    loadComponent: () => import('./components/company-details/company-details.page').then( m => m.CompanyDetailsPage)
+  },
+  {
+    path: 'job-details',
+    loadComponent: () => import('./components/job-details/job-details.page').then( m => m.JobDetailsPage)
+  },
+  {
+    path: 'apply-form',
+    loadComponent: () => import('./components/apply-form/apply-form.page').then( m => m.ApplyFormPage)
+  },
  
 ];
 

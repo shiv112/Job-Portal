@@ -46,7 +46,7 @@
           <div class="lg-div"></div>
         </div>  
       </div>
-      <a routerLink="/jobDetails">  
+      
       <ion-card class="ion-card-rec">	
           <img src="https://i.pravatar.cc/100" alt="companyImg" class="company-img">
         
@@ -58,7 +58,7 @@
           <span class="span-company-salary">$ 500 - $ 1,000</span>
         </div>
       </ion-card>
-    </a>
+    
     </div>
     
     <div class="section">
@@ -75,15 +75,15 @@
     
       <div class="ion-card-recjob">	  
        
-        <div class="ion-card-recentjob">	
+        <div class="ion-card-recentjob" *ngFor="let cmpData of companyList" routerLink="/job-details">	
           <div>
-              <img src= "https://i.pravatar.cc/100" alt="companyImg" class="company-img-recentjob">
+              <img [src]="cmpData.companyImg" class="company-img-recentjob">
           </div>
           <div class="company-details-recentJob">
-            <span class="rec-span-companyText">ITC Pvt Ltd.</span>
-            <span class="rec-span-jobTitle">Software Engineer</span>
-            <span class="rec-span-address">Jakarta, Indonesia</span>
-            <span class="rec-span-salary">$500 - $1,000</span>
+            <span class="rec-span-companyText">{{cmpData.companyName}}</span>
+            <span class="rec-span-jobTitle">{{cmpData.jobTitle}}</span>
+            <span class="rec-span-address">{{cmpData.location}}</span>
+            <span class="rec-span-salary">{{cmpData.salary}}</span>
           </div>
         </div>
       </div>	

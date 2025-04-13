@@ -1,0 +1,161 @@
+
+ion-content {
+    --background: white;
+    --color: black;
+  }
+  ion-header ion-toolbar  {
+    --background:white;
+    --color: black;
+  }
+  
+  
+  ion-content {
+    --background: #FBF6FF !important; /* Ensures the background is white */
+    
+  }
+  
+  ion-card {
+    background-color: white;
+    color: black;
+  }
+  
+  .job-card {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .job-heading {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .job-heading-sub {
+    width: 50%;
+    // border: 1px solid black;
+  }
+  
+  .companyImg {
+    height: 120px;
+    width: 120px;
+    margin: 2%;
+    border: 1px solid black;
+    border-radius: 10%;
+    padding: 1%;
+  }
+  
+  .job-time {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 16px;
+    font-size: 16px;
+    gap: 10px;
+  }
+  
+  .job-time-type {
+  
+      color:  #361389;
+      border: 1px solid black;
+      padding: 11px;
+      border-radius: 48px;
+      font-size: 14px;
+      font-weight: 400;
+      border-color: #ccbded;
+  }
+  
+  .salary-card {
+    border-top: 0.3 px solid #ccbded;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:10%;
+    margin-inline:30px;
+    font-weight: 500;
+  }
+  
+  .location-card {
+    border-bottom:  0.3px solid #ccbded;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:10%;
+    margin-inline:30px;
+    font-weight: 500;
+  }
+  
+  
+  ion-icon {
+    border-radius: 50%;
+    background-color: #E1D3FF;
+    padding: 12px;
+    font-size: 24px;
+  }
+  
+  .sl-text {
+    color: #6F6F6F;
+    font-size: 18px;
+    margin: 0%;
+    margin-top:10%;
+  }
+  .sll-text {
+    color: #030000;
+    font-size: 18px;
+  }
+  
+  .job-description-card {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    color: black;
+  }
+  
+  .apply-job-card {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    // border: 1px solid black;
+    margin-bottom: 90px;
+  }
+  
+  .save-img {
+    height: 55px;
+    width: 55px;
+    background-color: #c8d3db;
+    color: #40189D;
+    padding: 2%;
+    border-radius: 43%;
+  
+  }
+  
+  .apply-button {
+    height: 50px;
+    width: 250px;
+    font-size: 17px;
+    color: rgb(245, 245, 245);
+  }
+  
+  
+  
+  ul.checklist {
+    list-style: none; /* Remove default bullets */
+    padding: 0;
+  }
+  
+  ul.checklist li {
+    position: relative;
+    padding-left: 25px; /* Space for checkmark */
+    margin: 16px;
+  
+  }
+  
+  ul.checklist li::before {
+    content: "✔"; /* Unicode checkmark */
+    font-size: 10px;
+    position: absolute;
+    left: 0;
+    color: rgb(226, 240, 226); /* Change color of checkmark */
+    font-weight: bold;
+    background-color: #40189D;
+    border-radius: 50%;
+    padding: 5px 5px;
+  }
