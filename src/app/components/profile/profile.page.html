@@ -1,4 +1,4 @@
-<ion-header [translucent]="true">
+<!-- <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>profile</ion-title>
   </ion-toolbar>
@@ -10,4 +10,70 @@
       <ion-title size="large">profile</ion-title>
     </ion-toolbar>
   </ion-header>
-</ion-content>
+</ion-content> --> 
+
+<!-- <ion-app> -->
+  <ion-content>
+    <div class="cover-container">
+      <img src="https://images.unsplash.com/photo-1503264116251-35a269479413?auto=format&fit=crop&w=1350&q=80" alt="coverImg">
+      <p class="overlay-text">Account</p>
+    </div>
+
+    <div class="profile-div">
+      <img src="https://i.pravatar.cc/100" alt="profileImg">
+    </div>
+
+    <div class="user-info">
+      <h2>Henry Kanwil</h2> 
+      <p>Henry Kanwil</p>
+      <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu</p>
+      <div class="social-links">
+        <ion-icon name="call-sharp"></ion-icon>
+        <ion-icon name="mail-sharp"></ion-icon>
+        <ion-icon name="location-sharp"></ion-icon>
+        <!-- <a routerLink=""> <mat-icon> call </mat-icon> </a>  -->
+        <!-- <a routerLink=""> <mat-icon>mail</mat-icon> </a> -->
+        <!-- <a routerLink=""> <mat-icon>pin_drop</mat-icon> </a> -->
+      </div>
+    </div>
+
+    <ion-card class="ion-card-resume">
+      
+      <p class="section-title">My Resume</p>
+      <p class="resume-file-name">david_resume.pdf</p>
+    
+    </ion-card>
+
+    
+  <div class="skill-main-container">
+    <p class="section-title">Skill</p>
+    <div class="skill-list">
+      <ion-card  class="ion-card-progress" *ngFor="let skill of skills">
+        <div class="progress-container">
+          <svg width="80" height="80" viewBox="0 0 100 100">
+            <!-- Background Circle -->
+            <circle cx="50" cy="50" r="40" stroke-width="8" class="background-circle"></circle>
+            <!-- Progress Circle -->
+            <circle
+              cx="50"
+              cy="50"
+              r="40"
+              stroke-width="8"
+              [style.stroke]="skill.color"
+              class="progress-circle"
+              [style.stroke-dasharray]="circumference"
+              [style.stroke-dashoffset]="getStrokeOffset(skill.percentage)"
+            ></circle>
+            <!-- Percentage Label -->
+            <text x="50" y="55" text-anchor="middle" font-size="16" fill="#fff">{{ skill.percentage }}%</text>
+          </svg>
+        </div>
+        <p class="skill-name">{{ skill.name }}</p>
+      </ion-card>
+    </div>
+    
+  </div>
+
+  </ion-content>
+
+<!-- </ion-app> -->

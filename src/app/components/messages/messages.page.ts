@@ -9,7 +9,7 @@ import { IonContent, IonHeader, IonTitle, IonToolbar, IonAvatar, IonSearchbar, I
   templateUrl: './messages.page.html',
   styleUrls: ['./messages.page.scss'],
   standalone: true,
-  imports: [IonLabel,IonItem,IonAvatar, IonList, IonSearchbar, IonContent, IonHeader, IonTitle, IonToolbar, CommonModule, FormsModule]
+  imports: [IonLabel,IonItem,IonAvatar, IonList, IonSearchbar, IonContent, IonHeader, IonToolbar, CommonModule, FormsModule]
 })
 export class MessagesPage implements OnInit {
 
@@ -93,6 +93,86 @@ export class MessagesPage implements OnInit {
     },
     {
       id: 10,
+      name: 'Jake Thomas',
+      image: 'https://randomuser.me/api/portraits/men/10.jpg',
+      lastMessage: 'Check your inbox.',
+      time: 'Tue',
+      unread: 4
+    },
+    {
+      id: 11,
+      name: 'Emily Carter',
+      image: 'https://randomuser.me/api/portraits/women/1.jpg',
+      lastMessage: 'See you tomorrow!',
+      time: 'Mon',
+      unread: 2
+    },
+    {
+      id: 12,
+      name: 'Michael Scott',
+      image: 'https://randomuser.me/api/portraits/men/2.jpg',
+      lastMessage: 'That’s what she said.',
+      time: 'Wed',
+      unread: 0
+    },
+    {
+      id: 13,
+      name: 'Sophie Turner',
+      image: 'https://randomuser.me/api/portraits/women/3.jpg',
+      lastMessage: 'Let me know when you’re free.',
+      time: 'Fri',
+      unread: 1
+    },
+    {
+      id: 14,
+      name: 'Daniel Kim',
+      image: 'https://randomuser.me/api/portraits/men/4.jpg',
+      lastMessage: 'I’ve sent the files.',
+      time: 'Thu',
+      unread: 3
+    },
+    {
+      id: 15,
+      name: 'Lily Nguyen',
+      image: 'https://randomuser.me/api/portraits/women/5.jpg',
+      lastMessage: 'Great job on the presentation!',
+      time: 'Today',
+      unread: 0
+    },
+    {
+      id: 16,
+      name: 'Ryan Patel',
+      image: 'https://randomuser.me/api/portraits/men/6.jpg',
+      lastMessage: 'Let’s catch up soon.',
+      time: 'Yesterday',
+      unread: 5
+    },
+    {
+      id: 17,
+      name: 'Chloe Martin',
+      image: 'https://randomuser.me/api/portraits/women/7.jpg',
+      lastMessage: 'Can you review this?',
+      time: 'Sat',
+      unread: 0
+    },
+    {
+      id: 18,
+      name: 'Oscar Rivera',
+      image: 'https://randomuser.me/api/portraits/men/8.jpg',
+      lastMessage: 'Thanks!',
+      time: 'Sun',
+      unread: 0
+    },
+    {
+      id: 19,
+      name: 'Ava Johnson',
+      image: 'https://randomuser.me/api/portraits/women/9.jpg',
+      lastMessage: 'Happy Birthday!',
+      time: 'Today',
+      unread: 1
+    },
+    {
+      id: 20,
       name: 'Jake Thomas',
       image: 'https://randomuser.me/api/portraits/men/10.jpg',
       lastMessage: 'Check your inbox.',
