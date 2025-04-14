@@ -132,10 +132,22 @@ ion-content {
     width: 250px;
     font-size: 17px;
     color: rgb(245, 245, 245);
+    border-radius: 30px;
   }
   
-  
-  
+  ion-button.apply-button {
+    --border-radius: 30px;
+  }
+    
+  button.apply-save-button {
+    border-radius: 50%;
+    background-color: rgb(173, 175, 241);
+    // padding: 12px;
+    font-size: auto;
+    color: black;
+    --border-radius: 30px;
+  }
+
   ul.checklist {
     list-style: none; /* Remove default bullets */
     padding: 0;
@@ -143,8 +155,9 @@ ion-content {
   
   ul.checklist li {
     position: relative;
-    padding-left: 25px; /* Space for checkmark */
+    padding-left: 30px; /* Space for checkmark */
     margin: 16px;
+    
   
   }
   
@@ -155,7 +168,12 @@ ion-content {
     left: 0;
     color: rgb(226, 240, 226); /* Change color of checkmark */
     font-weight: bold;
+    font-size: 9px;
+    position: absolute;
+    left: 0;
+    color: rgb(226, 240, 226);
+    font-weight: bold;
     background-color: #40189D;
     border-radius: 50%;
-    padding: 5px 5px;
+    padding: 5px 7px;
   }
