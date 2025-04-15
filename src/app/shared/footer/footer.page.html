@@ -12,19 +12,15 @@
   </ion-header>
 </ion-content> -->
 
-<ion-footer>
+<!-- <ion-footer>
   <ion-toolbar>
     <div class="footer-icons">
       <ion-button routerLink="/home" fill="clear"> 
-        <!-- <mat-icon aria-hidden="false" aria-label="Example home icon" fontIcon="home"></mat-icon> -->
-        <ion-icon name="home-sharp"></ion-icon>
       </ion-button>
       <ion-button routerLink="/notifications" fill="clear">
-        <!-- <mat-icon aria-hidden="false" aria-label="Example home icon" fontIcon="notifications"></mat-icon> -->
         <ion-icon name="notifications-sharp"></ion-icon>
       </ion-button>
       <ion-button routerLink="/messages" fill="clear">
-        <!-- <mat-icon aria-hidden="false" aria-label="Example home icon" fontIcon="message"></mat-icon> -->
         <ion-icon name="chatbox-sharp"></ion-icon>
        </ion-button>
        <ion-button routerLink="/profile" fill="clear">
@@ -32,4 +28,29 @@
        </ion-button>
      </div>
   </ion-toolbar>  
-</ion-footer>
+</ion-footer> -->
+<ion-tabs>
+
+  <ion-tab-bar id="main-tabbar" slot="bottom">
+    <ion-tab-button tab="employees" routerLink="/home" >
+      <ion-icon name="home-sharp"></ion-icon>
+      <ion-label>Home</ion-label>
+    </ion-tab-button>
+
+    <ion-tab-button tab="expenses" routerLink="/notifications">
+      <ion-icon name="notifications-sharp"></ion-icon>
+      <ion-label>Notifications</ion-label>
+    </ion-tab-button>
+
+    <ion-tab-button tab="store" routerLink="/messages">
+      <ion-icon name="chatbox-sharp"></ion-icon>
+      <ion-label>Message</ion-label>
+    </ion-tab-button>
+
+    <ion-tab-button tab="settings" routerLink="/profile">
+      <ion-icon name="person-sharp"></ion-icon>      
+      <ion-label>Profile</ion-label>
+    </ion-tab-button>
+  </ion-tab-bar>
+
+</ion-tabs>
