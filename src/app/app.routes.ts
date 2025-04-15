@@ -45,6 +45,28 @@ export const routes: Routes = [
     path: 'apply-form',
     loadComponent: () => import('./components/apply-form/apply-form.page').then( m => m.ApplyFormPage)
   },
+  {
+    path: 'splashcreen',
+    loadComponent: () => import('./components/splashcreen/splashcreen.page').then( m => m.SplashcreenPage)
+  },
+  {
+    path: 'onboading',
+    loadComponent: () => import('./components/onboading/onboading.page').then( m => m.OnboadingPage)
+  },
+  {
+    path: 'welcomescreen',
+    loadComponent: () => import('./components/welcomescreen/welcomescreen.page').then( m => m.WelcomescreenPage)
+  },
+  {
+    path: 'register-page',
+    loadComponent: () => import('./components/register-page/register-page.page').then( m => m.RegisterPagePage)
+  },
+  {
+    path: 'login-page',
+    loadComponent: () => import('./components/login-page/login-page.page').then( m => m.LoginPagePage)
+  },
+  
+  
  
 ];
 

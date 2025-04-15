@@ -1,0 +1,52 @@
+<!-- <ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>registerPage</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">registerPage</ion-title>
+    </ion-toolbar>
+  </ion-header>
+</ion-content> -->
+
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/"></ion-back-button>
+    </ion-buttons>
+    <ion-title> Register</ion-title>
+    <ion-buttons slot="end">
+      <ion-button fill="clear">
+        <ion-icon name="bookmark-outline"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+<ion-content>
+  <div class="main-content">
+    <div class="crt-acc-div">
+      <h2>Create an Account </h2>
+      <p class="ple-text">Please fill register from below</p>
+    </div>
+    <div>
+      <form action="">
+        <div class="main-input-container">
+          <input type="text" placeholder="Name" class="input-div">
+          <input type="text" placeholder="Mail" class="input-div">
+          <input type="password" placeholder="Password" id="" class="input-div">
+          <button class="signup-btn">Sign Up</button>
+        </div>
+        <div class="term-cdn-text">
+          <p>By tapping “Sign Up” you accept our <a href="">terms</a> and <a href="">condition</a></p>
+        </div>
+      </form>
+      <div class="login-div">
+        <p class="ald-login-text">Already have an account?</p>
+        <button class="login-btn">LOGIN</button>
+      </div>
+    </div>
+  </div>
+</ion-content>

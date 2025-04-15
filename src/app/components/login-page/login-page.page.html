@@ -1,0 +1,64 @@
+<!-- <ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>loginPage</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">loginPage</ion-title>
+    </ion-toolbar>
+  </ion-header>
+</ion-content> -->
+
+
+  <ion-header>
+    <ion-toolbar>
+      <ion-buttons slot="start">
+        <ion-back-button defaultHref="/"></ion-back-button>
+      </ion-buttons>
+      <ion-title> Sign In</ion-title>
+      <ion-buttons slot="end">
+        <ion-button fill="clear">
+          <ion-icon name="bookmark-outline"></ion-icon>
+        </ion-button>
+      </ion-buttons>
+    </ion-toolbar>
+  </ion-header>
+  <ion-content>
+  <div class="main-content">
+  <div class="crt-acc-div">
+    <h2>Sign In </h2>
+    <p class="ple-text">Please sign in to your registered account</p>
+  </div>
+  <div >
+    <form action="">
+      <div class="main-input-container">
+           <input type="text" placeholder="Username" class="input-div">
+           <!-- <input type="text" placeholder="Mail" class="input-div"> -->
+          <input type="password" placeholder="Password" id="" class="input-div">        
+          <button class="signup-btn" >LOGIN</button>        
+        </div>
+      <div class="term-cdn-text">
+        <p>Forgot your password? <a href="">Reset here</a></p>
+      </div>
+    </form>
+      <div class="login-div">
+        <p class="ald-login-text">Or sign in with</p>
+        <div class="gf-div">
+          <div class="googlefacebook-content">
+            <!-- <img  src="../../../assets/search.png" alt="google" class="gf-img"> -->
+            <ion-icon name="logo-google" class="gf-img"></ion-icon>
+          </div>
+          <div class="googlefacebook-content">
+            <!-- <img src="../../../assets/facebook.png" alt="facebook" class="gf-img"> -->
+            <ion-icon name="logo-facebook" class="gf-img"></ion-icon>
+          </div>
+        </div>
+        <button class="login-btn" (click)="goToCreatAccPage()" >CREATE ACCOUNT</button>
+      </div>
+      
+  </div>
+</div>
+  </ion-content>
