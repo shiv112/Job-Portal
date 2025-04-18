@@ -1,15 +1,38 @@
 import { Routes } from '@angular/router';
 
 export const routes: Routes = [
+ 
+  {
+    path: 'splashcreen',
+    loadComponent: () => import('./components/splashcreen/splashcreen.page').then( m => m.SplashcreenPage)
+  },
+  {
+    path: '',
+    redirectTo: 'splashcreen',
+    pathMatch: 'full',
+  },
+  {
+    path: 'onboading',
+    loadComponent: () => import('./components/onboading/onboading.page').then( m => m.OnboadingPage)
+  },
+  { 
+    path: 'welcomescreen',
+    loadComponent: () => import('./components/welcomescreen/welcomescreen.page').then( m => m.WelcomescreenPage)
+  },
+  {
+    path: 'login-page',
+    loadComponent: () => import('./components/login-page/login-page.page').then( m => m.LoginPagePage)
+  },
+  
+  {
+    path: 'register-page',
+    loadComponent: () => import('./components/register-page/register-page.page').then( m => m.RegisterPagePage)
+  },
   {
     path: 'home',
     loadComponent: () => import('./home/home.page').then((m) => m.HomePage),
   },
-  {
-    path: '',
-    redirectTo: 'home',
-    pathMatch: 'full',
-  },
+
   {
     path: 'notifications',
     loadComponent: () => import('./components/notifications/notifications.page').then( m => m.NotificationsPage)
@@ -45,26 +68,8 @@ export const routes: Routes = [
     path: 'apply-form',
     loadComponent: () => import('./components/apply-form/apply-form.page').then( m => m.ApplyFormPage)
   },
-  {
-    path: 'splashcreen',
-    loadComponent: () => import('./components/splashcreen/splashcreen.page').then( m => m.SplashcreenPage)
-  },
-  {
-    path: 'onboading',
-    loadComponent: () => import('./components/onboading/onboading.page').then( m => m.OnboadingPage)
-  },
-  {
-    path: 'welcomescreen',
-    loadComponent: () => import('./components/welcomescreen/welcomescreen.page').then( m => m.WelcomescreenPage)
-  },
-  {
-    path: 'register-page',
-    loadComponent: () => import('./components/register-page/register-page.page').then( m => m.RegisterPagePage)
-  },
-  {
-    path: 'login-page',
-    loadComponent: () => import('./components/login-page/login-page.page').then( m => m.LoginPagePage)
-  },
+  
+  
   
   
  
