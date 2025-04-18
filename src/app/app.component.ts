@@ -5,7 +5,7 @@ import { FooterPage } from "./shared/footer/footer.page";
 @Component({
   selector: 'app-root',
   templateUrl: 'app.component.html',
-  imports: [IonApp, IonRouterOutlet],
+  imports: [IonApp, IonRouterOutlet,FooterPage],
 })
 export class AppComponent {
   constructor() {}
