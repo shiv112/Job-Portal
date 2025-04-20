@@ -11,7 +11,7 @@ import { FooterPage } from "../../shared/footer/footer.page";
   templateUrl: './messages.page.html',
   styleUrls: ['./messages.page.scss'],
   standalone: true,
-  imports: [IonLabel, IonItem, IonAvatar, IonList, IonSearchbar, RouterLink, IonContent, IonHeader, IonToolbar, CommonModule, FormsModule, FooterPage]
+  imports: [IonLabel, IonItem, IonAvatar, IonList, IonSearchbar, RouterLink, IonContent, IonHeader, IonToolbar, CommonModule, FormsModule]
 })
 export class MessagesPage implements OnInit {
 

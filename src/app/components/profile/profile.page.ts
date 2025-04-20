@@ -10,7 +10,7 @@ import { FooterPage } from "../../shared/footer/footer.page";
   templateUrl: './profile.page.html',
   styleUrls: ['./profile.page.scss'],
   standalone: true,
-  imports: [IonIcon, IonCard, IonContent, CommonModule, FormsModule, FooterPage]
+  imports: [IonIcon, IonCard, IonContent, CommonModule, FormsModule]
 })
 export class ProfilePage implements OnInit {
 

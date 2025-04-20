@@ -9,7 +9,7 @@ import { FooterPage } from "../../shared/footer/footer.page";
   templateUrl: './notifications.page.html',
   styleUrls: ['./notifications.page.scss'],
   standalone: true,
-  imports: [IonCard, IonContent, IonHeader, IonTitle, IonToolbar, CommonModule, FormsModule, FooterPage]
+  imports: [IonCard, IonContent, IonHeader, IonTitle, IonToolbar, CommonModule, FormsModule]
 })
 export class NotificationsPage implements OnInit {
 
