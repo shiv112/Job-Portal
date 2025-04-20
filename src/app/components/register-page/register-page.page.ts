@@ -9,7 +9,7 @@ import { FooterPage } from "../../shared/footer/footer.page";
   templateUrl: './register-page.page.html',
   styleUrls: ['./register-page.page.scss'],
   standalone: true,
-  imports: [IonIcon, IonButton, IonBackButton, IonButtons, IonContent, IonHeader, IonTitle, IonToolbar, CommonModule, FormsModule, FooterPage]
+  imports: [IonIcon, IonButton, IonBackButton, IonButtons, IonContent, IonHeader, IonTitle, IonToolbar, CommonModule, FormsModule]
 })
 export class RegisterPagePage implements OnInit {
 

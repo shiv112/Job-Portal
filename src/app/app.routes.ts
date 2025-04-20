@@ -36,7 +36,7 @@ export const routes: Routes = [
   {
     path: 'notifications',
     loadComponent: () => import('./components/notifications/notifications.page').then( m => m.NotificationsPage)
-  },
+  },  
   {
     path: 'header',
     loadComponent: () => import('./shared/header/header.page').then( m => m.HeaderPage)
@@ -47,6 +47,10 @@ export const routes: Routes = [
   },   {
     path: 'messages',
     loadComponent: () => import('./components/messages/messages.page').then( m => m.MessagesPage)
+  },
+  {
+    path: 'message-detail',
+    loadComponent: () => import('./components/message-detail/message-detail.page').then( m => m.MessageDetailPage)
   },
   {
     path: 'profile',

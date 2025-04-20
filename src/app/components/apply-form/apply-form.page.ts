@@ -9,7 +9,7 @@ import { FooterPage } from "../../shared/footer/footer.page";
   templateUrl: './apply-form.page.html',
   styleUrls: ['./apply-form.page.scss'],
   standalone: true,
-  imports: [IonIcon, IonButton, IonBackButton, IonButtons, IonContent, IonHeader, IonTitle, IonToolbar, CommonModule, FormsModule, FooterPage]
+  imports: [IonIcon, IonButton, IonBackButton, IonButtons, IonContent, IonHeader, IonTitle, IonToolbar, CommonModule, FormsModule]
 })
 export class ApplyFormPage implements OnInit {
   

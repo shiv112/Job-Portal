@@ -9,7 +9,7 @@ import { FooterPage } from "../../shared/footer/footer.page";
   templateUrl: './company-details.page.html',
   styleUrls: ['./company-details.page.scss'],
   standalone: true,
-  imports: [IonContent, IonHeader, IonTitle, IonToolbar, CommonModule, FormsModule, FooterPage]
+  imports: [IonContent, IonHeader, IonTitle, IonToolbar, CommonModule, FormsModule]
 })
 export class CompanyDetailsPage implements OnInit {
 
