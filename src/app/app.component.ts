@@ -8,11 +8,7 @@ import { CommonModule } from '@angular/common';
 @Component({
   selector: 'app-root',
   templateUrl: 'app.component.html',
-<<<<<<< HEAD
-  imports: [IonApp, IonRouterOutlet,FooterPage],
-=======
   imports: [IonApp, IonRouterOutlet , FooterPage , CommonModule],
->>>>>>> 80932a1 (added new change in footer tab)
 })
 export class AppComponent {
   showFooter: boolean | undefined;
