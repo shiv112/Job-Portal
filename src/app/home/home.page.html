@@ -75,11 +75,11 @@
     
       <div class="ion-card-recjob">	  
        
-        <div class="ion-card-recentjob" *ngFor="let cmpData of companyList" routerLink="/job-details">	
-          <div>
+        <div class="ion-card-recentjob" *ngFor="let cmpData of companyList" >	
+          <div routerLink="/company-details">
               <img [src]="cmpData.companyImg" class="company-img-recentjob">
           </div>
-          <div class="company-details-recentJob">
+          <div routerLink="/job-details" class="company-details-recentJob">
             <span class="rec-span-companyText">{{cmpData.companyName}}</span>
             <span class="rec-span-jobTitle">{{cmpData.jobTitle}}</span>
             <span class="rec-span-address">{{cmpData.location}}</span>
