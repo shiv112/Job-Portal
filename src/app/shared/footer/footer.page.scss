@@ -11,3 +11,13 @@ ion-toolbar {
   ion-icon {
     color: rgb(75, 98, 109);
   }
+
+  .bottom-bar {
+  --background: var(--ion-color-light);
+  --padding-start: 0;
+  --padding-end: 0;
+
+  ion-tab-bar {
+    --background: transparent;   // share toolbar background
+  }
+}

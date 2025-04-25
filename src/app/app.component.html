@@ -1,6 +1,10 @@
 <ion-app>
-  
-  <ion-router-outlet></ion-router-outlet>
-  <app-footer *ngIf="showFooter"></app-footer>
+  <ion-split-pane content-id="menu">
+    <app-header *ngIf="showFooter"></app-header>
+    <ion-menu content-id="menu" type="overlay" side="start">
+    <app-sliding-menu></app-sliding-menu>
+    </ion-menu>
+    <ion-router-outlet id="menu"></ion-router-outlet>
+  </ion-split-pane>
 </ion-app>
-  
+    
