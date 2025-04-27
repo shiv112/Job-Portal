@@ -1,0 +1,16 @@
+ion-menu {
+    --background: none; /* Clear default background */
+    background: linear-gradient(to bottom, #40189D, #7153b6); /* Apply custom gradient */
+  }
+  
+  ion-content {
+    --background: transparent; /* Make ion-content background transparent so the menu gradient shows */
+  }
+
+  ion-toolbar {
+    --background: transparent;
+    --box-shadow: none;
+    color: white; /* text color white to stand out on dark gradient */
+  }
+  
+  

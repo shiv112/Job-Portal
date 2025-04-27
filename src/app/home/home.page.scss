@@ -2,6 +2,14 @@
 // .inner-scroll.scroll-y {
 //   display: none;
 // }
+
+ion-toolbar {
+  --background: linear-gradient(to bottom, #40189D, #7153b6); /* ✅ Gradient background */
+  --ion-color-base: linear-gradient(to bottom, #40189D, #7153b6); /* ✅ Set base color to gradient */
+  --box-shadow: none; /* ✅ Optional: removes bottom shadow */
+  color: white; /* ✅ Text color to contrast against dark gradient */
+}
+
 ion-content {
   --background: #FBF6FF !important; /* Ensures the background is white */
   scrollbar-color: rgba(0, 0, 0, 0.4) transparent;

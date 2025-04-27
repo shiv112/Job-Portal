@@ -1,10 +1,48 @@
 <ion-app>
-  <ion-split-pane content-id="menu">
-    <app-header *ngIf="showFooter"></app-header>
-    <ion-menu content-id="menu" type="overlay" side="start">
-    <app-sliding-menu></app-sliding-menu>
+  <ion-split-pane contentId="main-content">
+    
+    <!-- Side Menu -->
+    <ion-menu contentId="main-content" type="overlay" side="start">
+      <ion-header>
+        <ion-avatar class="mt-3">
+          <img src="https://i.pravatar.cc/100" alt="Profile" />
+        </ion-avatar>
+        <ion-toolbar class="mt-3">
+          <ion-title>Good Morning Henry Kanwil</ion-title>
+        </ion-toolbar>
+      </ion-header>
+      
+      <ion-content class="mt-3">
+        <ion-list>
+          <ion-menu-toggle auto-hide="false">
+            <ion-item routerLink="/profile" routerDirection="root">
+              <ion-label>Profile</ion-label>
+            </ion-item>
+          </ion-menu-toggle>
+
+          <ion-menu-toggle auto-hide="false">
+            <ion-item routerLink="/home" routerDirection="root">
+              <ion-label>Home</ion-label>
+            </ion-item>
+          </ion-menu-toggle>
+
+          <ion-menu-toggle auto-hide="false">
+            <ion-item routerLink="/notifications" routerDirection="root">
+              <ion-label>Notifications</ion-label>
+            </ion-item>
+          </ion-menu-toggle>
+
+          <ion-menu-toggle auto-hide="false">
+            <ion-item routerLink="/logout" routerDirection="root">
+              <ion-label>Logout</ion-label>
+            </ion-item>
+          </ion-menu-toggle>
+        </ion-list>
+      </ion-content>
     </ion-menu>
-    <ion-router-outlet id="menu"></ion-router-outlet>
+
+    <!-- Main Content -->
+    <ion-router-outlet id="main-content"></ion-router-outlet>
+
   </ion-split-pane>
 </ion-app>
-    

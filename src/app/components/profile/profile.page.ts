@@ -1,16 +1,15 @@
 import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
-import { IonContent, IonHeader, IonTitle, IonToolbar, IonApp, IonCard, IonIcon } from '@ionic/angular/standalone';
 import { addIcons } from 'ionicons';
 import { callSharp, locationSharp, mailSharp } from 'ionicons/icons';
-import { FooterPage } from "../../shared/footer/footer.page";
+import { IonicModule } from '@ionic/angular';
 @Component({
   selector: 'app-profile',
   templateUrl: './profile.page.html',
   styleUrls: ['./profile.page.scss'],
   standalone: true,
-  imports: [IonIcon, IonCard, IonContent, CommonModule, FormsModule]
+  imports: [ IonicModule,CommonModule, FormsModule]
 })
 export class ProfilePage implements OnInit {
 
