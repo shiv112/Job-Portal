@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { IonContent, IonHeader, IonMenuButton, IonTitle, IonToolbar, IonTab, IonButtons, IonIcon } from '@ionic/angular/standalone';
@@ -10,10 +10,12 @@ import { addIcons } from 'ionicons';
   templateUrl: './header.page.html',
   styleUrls: ['./header.page.scss'],
   standalone: true,
-  imports: [IonIcon,IonMenuButton , IonHeader, CommonModule, FormsModule]
+  imports: [IonMenuButton , IonHeader, IonButtons, IonTitle , IonToolbar , CommonModule, FormsModule]
 })
 export class HeaderPage implements OnInit {
 
+  @Input() pageName: string = "";
+  
   constructor() { 
     addIcons({ menuSharp });
   }
