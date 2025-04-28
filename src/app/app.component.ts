@@ -1,11 +1,11 @@
   import { Component } from '@angular/core';
   import { NavigationEnd, Router, RouterLink } from '@angular/router';
   import { filter } from 'rxjs';
-  import { IonicModule } from '@ionic/angular';
+  import { IonicModule , IonSplitPane } from '@ionic/angular';
   @Component({
     selector: 'app-root',
     templateUrl: 'app.component.html',
-    imports: [IonicModule,RouterLink],
+    imports: [IonicModule,RouterLink ],
     // imports: [IonApp, IonRouterOutlet, IonSplitPane, IonMenu, CommonModule, HeaderPage, SlidingMenuComponent],
   })
   export class AppComponent {
