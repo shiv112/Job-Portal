@@ -4,8 +4,10 @@
   import { IonicModule , IonSplitPane } from '@ionic/angular';
   @Component({
     selector: 'app-root',
+    standalone:true,
     templateUrl: 'app.component.html',
     imports: [IonicModule,RouterLink ],
+
     // imports: [IonApp, IonRouterOutlet, IonSplitPane, IonMenu, CommonModule, HeaderPage, SlidingMenuComponent],
   })
   export class AppComponent {
