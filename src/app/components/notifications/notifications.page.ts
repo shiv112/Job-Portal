@@ -10,7 +10,7 @@ import { HeaderPage } from "../../shared/header/header.page";
   templateUrl: './notifications.page.html',
   styleUrls: ['./notifications.page.scss'],
   standalone: true,
-  imports: [IonicModule, CommonModule, FormsModule, HeaderPage]
+  imports: [IonicModule, CommonModule, FormsModule]
   // imports: [IonCard, IonContent, IonHeader, IonTitle, IonToolbar, CommonModule, FormsModule]
 })
 export class NotificationsPage implements OnInit {

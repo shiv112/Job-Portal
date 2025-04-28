@@ -6,7 +6,7 @@
     selector: 'app-root',
     standalone:true,
     templateUrl: 'app.component.html',
-    imports: [IonRouterOutlet, IonMenuToggle , IonApp , IonToolbar ,IonSplitPane , IonHeader, IonContent, IonMenu, IonItem, IonTitle ,IonLabel, IonList, IonAvatar],
+    imports: [IonRouterOutlet, IonMenuToggle ,RouterLink, IonApp , IonToolbar ,IonSplitPane , IonHeader, IonContent, IonMenu, IonItem, IonTitle ,IonLabel, IonList, IonAvatar],
   })
   export class AppComponent {
     showFooter: boolean | undefined;

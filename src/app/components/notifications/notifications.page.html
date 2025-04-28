@@ -1,5 +1,13 @@
 
-<app-header [pageName]="'Notifications'"></app-header>
+<!-- <app-header [pageName]="'Notifications'"></app-header> -->
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Notification</ion-title>
+    <ion-buttons slot="start">
+      <ion-menu-button menu="main-menu"></ion-menu-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
 
 <ion-content [fullscreen]="true">
 <ion-card class="hoverEffect m-10 p-3" *ngFor="let displayData of notifications">
