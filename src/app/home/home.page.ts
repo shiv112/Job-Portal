@@ -6,7 +6,7 @@ import { HeaderPage } from "../shared/header/header.page";
   selector: 'app-home',
   templateUrl: 'home.page.html',
   styleUrls: ['home.page.scss'],
-  imports: [IonicModule, CommonModule, HeaderPage],
+  imports: [IonicModule, CommonModule],
   // imports: [IonCard, IonSearchbar, IonAvatar, RouterLink, CommonModule, IonContent],
 })
 export class HomePage implements OnInit {
