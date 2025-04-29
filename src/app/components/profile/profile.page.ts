@@ -4,12 +4,13 @@ import { FormsModule } from '@angular/forms';
 import { addIcons } from 'ionicons';
 import { callSharp, locationSharp, mailSharp } from 'ionicons/icons';
 import { IonicModule } from '@ionic/angular';
+import { HeaderPage } from 'src/app/shared/header/header.page';
 @Component({
   selector: 'app-profile',
   templateUrl: './profile.page.html',
   styleUrls: ['./profile.page.scss'],
   standalone: true,
-  imports: [ IonicModule,CommonModule, FormsModule]
+  imports: [ IonicModule,CommonModule, FormsModule , HeaderPage]
 })
 export class ProfilePage implements OnInit {
 

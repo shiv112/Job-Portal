@@ -4,12 +4,13 @@ import { FormsModule } from '@angular/forms';
 import { IonContent, IonHeader, IonTitle, IonToolbar, IonApp, IonCard } from '@ionic/angular/standalone';
 import { FooterPage } from "../../shared/footer/footer.page";
 import { IonicModule } from '@ionic/angular';
+import { HeaderPage } from "../../shared/header/header.page";
 @Component({
   selector: 'app-notifications',
   templateUrl: './notifications.page.html',
   styleUrls: ['./notifications.page.scss'],
   standalone: true,
-  imports: [IonicModule,CommonModule,FormsModule]
+  imports: [IonicModule, CommonModule, FormsModule]
   // imports: [IonCard, IonContent, IonHeader, IonTitle, IonToolbar, CommonModule, FormsModule]
 })
 export class NotificationsPage implements OnInit {

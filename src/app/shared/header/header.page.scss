@@ -1,0 +1,8 @@
+ion-toolbar {
+    // --background: linear-gradient(to bottom, #40189D, #7153b6); /* ✅ Gradient background */
+    --background:#FBF6FF;
+    --ion-color-base: linear-gradient(to bottom, #40189D, #7153b6); /* ✅ Set base color to gradient */
+    --box-shadow: none; /* ✅ Optional: removes bottom shadow */
+      color: rgb(32, 5, 5); /* ✅ Text color to contrast against dark gradient */
+      
+  }

@@ -2,7 +2,7 @@
   <ion-split-pane contentId="main-content">
     
     <!-- Side Menu -->
-    <ion-menu contentId="main-content" type="overlay" side="start">
+    <ion-menu menuId="main-menu"  content-id="main" type="overlay" side="start">
       <ion-header>
         <ion-avatar class="mt-3">
           <img src="https://i.pravatar.cc/100" alt="Profile" />
@@ -11,8 +11,7 @@
           <ion-title>Good Morning Henry Kanwil</ion-title>
         </ion-toolbar>
       </ion-header>
-      
-      <ion-content class="mt-3">
+      <ion-content>
         <ion-list>
           <ion-menu-toggle auto-hide="false">
             <ion-item routerLink="/profile" routerDirection="root">
@@ -42,7 +41,7 @@
     </ion-menu>
 
     <!-- Main Content -->
-    <ion-router-outlet id="main-content"></ion-router-outlet>
+    <ion-router-outlet id="main"></ion-router-outlet>
 
   </ion-split-pane>
 </ion-app>
