@@ -2,11 +2,12 @@ import { CommonModule } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
 import { IonicModule } from '@ionic/angular';
 import { HeaderPage } from "../shared/header/header.page";
+import { RouterLink } from '@angular/router';
 @Component({
   selector: 'app-home',
   templateUrl: 'home.page.html',
   styleUrls: ['home.page.scss'],
-  imports: [IonicModule, CommonModule],
+  imports: [IonicModule, CommonModule,RouterLink],
   // imports: [IonCard, IonSearchbar, IonAvatar, RouterLink, CommonModule, IonContent],
 })
 export class HomePage implements OnInit {
