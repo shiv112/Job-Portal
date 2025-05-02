@@ -3,15 +3,19 @@ import { Component, OnInit } from '@angular/core';
 import { IonicModule } from '@ionic/angular';
 import { HeaderPage } from "../shared/header/header.page";
 import { RouterLink } from '@angular/router';
+import { addIcons } from 'ionicons';
+import { notificationsSharp } from 'ionicons/icons';
 @Component({
   selector: 'app-home',
   templateUrl: 'home.page.html',
   styleUrls: ['home.page.scss'],
-  imports: [IonicModule, CommonModule,RouterLink],
+  imports: [IonicModule, CommonModule,RouterLink , HeaderPage],
   // imports: [IonCard, IonSearchbar, IonAvatar, RouterLink, CommonModule, IonContent],
 })
 export class HomePage implements OnInit {
-  constructor() {}
+  constructor() {
+    addIcons({notificationsSharp})
+  }
 
   // pageName = 'Home';
 

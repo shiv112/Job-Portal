@@ -4,10 +4,18 @@
   </ion-toolbar>
 </ion-header> -->
   
-<ion-header [translucent]="true">
+<!-- <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-searchbar class="custom-searchbar" placeholder="Search message.."></ion-searchbar>
   </ion-toolbar>
+</ion-header> -->
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button routerLink="/home"></ion-back-button>
+    </ion-buttons>
+    <ion-searchbar class="custom-searchbar" placeholder="Search message.."></ion-searchbar>
+  </ion-toolbar> 
 </ion-header>
 
 <ion-content [fullscreen]="true"  class="ion-padding-bottom">
