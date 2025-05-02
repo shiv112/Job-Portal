@@ -1,24 +1,17 @@
-<!-- <ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>messages</ion-title>
-  </ion-toolbar>
-</ion-header> -->
-  
-<!-- <ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-searchbar class="custom-searchbar" placeholder="Search message.."></ion-searchbar>
-  </ion-toolbar>
-</ion-header> -->
-<ion-header>
+
+<!-- <ion-header>
   <ion-toolbar>
     <ion-buttons slot="start">
       <ion-back-button routerLink="/home"></ion-back-button>
     </ion-buttons>
     <ion-searchbar class="custom-searchbar" placeholder="Search message.."></ion-searchbar>
   </ion-toolbar> 
-</ion-header>
-
+</ion-header> -->
+<app-header [pageName]= "'Home'"></app-header>
 <ion-content [fullscreen]="true"  class="ion-padding-bottom">
+  <ion-toolbar>
+    <ion-searchbar class="custom-searchbar" placeholder="Search message.."></ion-searchbar>
+  </ion-toolbar> 
   <ion-list *ngFor="let userMessage of chatList">
     <ion-item routerLink="/message-detail">
         <ion-avatar slot="start">

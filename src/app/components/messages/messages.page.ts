@@ -12,7 +12,7 @@ import { HeaderPage } from 'src/app/shared/header/header.page';
   templateUrl: './messages.page.html',
   styleUrls: ['./messages.page.scss'],
   standalone: true,
-  imports: [ IonSearchbar , IonButtons , IonLabel,IonItem ,IonAvatar, IonList,IonBackButton, RouterLink, IonContent, IonHeader, IonToolbar, CommonModule, FormsModule]
+  imports: [ HeaderPage,IonSearchbar , IonButtons , IonLabel,IonItem ,IonAvatar, IonList,IonBackButton, RouterLink, IonContent, IonHeader, IonToolbar, CommonModule, FormsModule]
 })
 export class MessagesPage implements OnInit {
 
